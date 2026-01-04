@@ -16,6 +16,7 @@ import static org.springframework.http.HttpStatus.*;
 @RestController
 @RequestMapping("/student")
 @CrossOrigin
+
 public class StudentController {
 
     @Autowired

@@ -21,6 +21,7 @@ import static org.springframework.http.HttpStatus.*;
 @RestController
 @RequestMapping("/school")
 @CrossOrigin
+
 public class SchoolController {
     @Autowired
     private ISchoolService schoolService;
